@@ -1,0 +1,1 @@
+cmd_drivers/staging/media/lirc/lirc_sasem.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/media/lirc/lirc_sasem.ko drivers/staging/media/lirc/lirc_sasem.o drivers/staging/media/lirc/lirc_sasem.mod.o

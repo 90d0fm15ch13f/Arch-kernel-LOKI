@@ -1,0 +1,1 @@
+cmd_drivers/staging/media/mn88473/mn88473.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/media/mn88473/mn88473.ko drivers/staging/media/mn88473/mn88473.o drivers/staging/media/mn88473/mn88473.mod.o

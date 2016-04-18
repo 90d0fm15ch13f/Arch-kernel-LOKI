@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/ft6236.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/input/touchscreen/ft6236.ko drivers/input/touchscreen/ft6236.o drivers/input/touchscreen/ft6236.mod.o

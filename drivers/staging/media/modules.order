@@ -1,0 +1,11 @@
+kernel/drivers/staging/media/lirc/lirc_bt829.ko
+kernel/drivers/staging/media/lirc/lirc_imon.ko
+kernel/drivers/staging/media/lirc/lirc_parallel.ko
+kernel/drivers/staging/media/lirc/lirc_sasem.ko
+kernel/drivers/staging/media/lirc/lirc_serial.ko
+kernel/drivers/staging/media/lirc/lirc_sir.ko
+kernel/drivers/staging/media/lirc/lirc_zilog.ko
+kernel/drivers/staging/media/bcm2048/radio-bcm2048.ko
+kernel/drivers/staging/media/cxd2099/cxd2099.ko
+kernel/drivers/staging/media/mn88472/mn88472.ko
+kernel/drivers/staging/media/mn88473/mn88473.ko

@@ -1,0 +1,127 @@
+#include <linux/module.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+
+__visible struct module __this_module
+__attribute__((section(".gnu.linkonce.this_module"))) = {
+	.name = KBUILD_MODNAME,
+	.init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+	.exit = cleanup_module,
+#endif
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+static const struct modversion_info ____versions[]
+__used
+__attribute__((section("__versions"))) = {
+	{ 0x5e862211, __VMLINUX_SYMBOL_STR(module_layout) },
+	{ 0x2d3385d3, __VMLINUX_SYMBOL_STR(system_wq) },
+	{ 0xa4b94fea, __VMLINUX_SYMBOL_STR(iowrite8_rep) },
+	{ 0x7e104a81, __VMLINUX_SYMBOL_STR(kmalloc_caches) },
+	{ 0xd2b09ce5, __VMLINUX_SYMBOL_STR(__kmalloc) },
+	{ 0x4f6f6ff2, __VMLINUX_SYMBOL_STR(__pm_runtime_idle) },
+	{ 0xdae80100, __VMLINUX_SYMBOL_STR(_raw_spin_unlock) },
+	{ 0xc54cc9b2, __VMLINUX_SYMBOL_STR(usb_add_hcd) },
+	{ 0xa56e18e4, __VMLINUX_SYMBOL_STR(debugfs_create_dir) },
+	{ 0xbdf58c59, __VMLINUX_SYMBOL_STR(__pm_runtime_disable) },
+	{ 0xf1d32ca8, __VMLINUX_SYMBOL_STR(usb_hcd_unmap_urb_for_dma) },
+	{ 0x3386efc1, __VMLINUX_SYMBOL_STR(single_open) },
+	{ 0x6c09c2a4, __VMLINUX_SYMBOL_STR(del_timer) },
+	{ 0xec5ad261, __VMLINUX_SYMBOL_STR(usb_remove_hcd) },
+	{ 0x6859bd4e, __VMLINUX_SYMBOL_STR(__pm_runtime_use_autosuspend) },
+	{ 0x754d539c, __VMLINUX_SYMBOL_STR(strlen) },
+	{ 0xea554f20, __VMLINUX_SYMBOL_STR(dev_printk) },
+	{ 0xb97785f1, __VMLINUX_SYMBOL_STR(single_release) },
+	{ 0x1f988a63, __VMLINUX_SYMBOL_STR(usb_create_hcd) },
+	{ 0xf8d71db9, __VMLINUX_SYMBOL_STR(usb_hcd_poll_rh_status) },
+	{ 0xc0a3d105, __VMLINUX_SYMBOL_STR(find_next_bit) },
+	{ 0x6b06fdce, __VMLINUX_SYMBOL_STR(delayed_work_timer_fn) },
+	{ 0x3fdb3171, __VMLINUX_SYMBOL_STR(usb_del_gadget_udc) },
+	{ 0xa4744dba, __VMLINUX_SYMBOL_STR(usb_gadget_giveback_request) },
+	{ 0x802bde1c, __VMLINUX_SYMBOL_STR(seq_printf) },
+	{ 0x3f0546a8, __VMLINUX_SYMBOL_STR(ioread32_rep) },
+	{ 0x88bfa7e, __VMLINUX_SYMBOL_STR(cancel_work_sync) },
+	{ 0x44b1d426, __VMLINUX_SYMBOL_STR(__dynamic_pr_debug) },
+	{ 0xa1799df0, __VMLINUX_SYMBOL_STR(platform_bus_type) },
+	{ 0x9d4a0a9f, __VMLINUX_SYMBOL_STR(devm_ioremap_resource) },
+	{ 0xeae3dfd6, __VMLINUX_SYMBOL_STR(__const_udelay) },
+	{ 0x9580deb, __VMLINUX_SYMBOL_STR(init_timer_key) },
+	{ 0xa57863e, __VMLINUX_SYMBOL_STR(cancel_delayed_work_sync) },
+	{ 0x44eaa3cf, __VMLINUX_SYMBOL_STR(usb_hcd_giveback_urb) },
+	{ 0x5857b225, __VMLINUX_SYMBOL_STR(ioread16_rep) },
+	{ 0xd679af25, __VMLINUX_SYMBOL_STR(__pm_runtime_resume) },
+	{ 0x16c745d, __VMLINUX_SYMBOL_STR(debugfs_create_file) },
+	{ 0x8cc79cab, __VMLINUX_SYMBOL_STR(iowrite16_rep) },
+	{ 0x91715312, __VMLINUX_SYMBOL_STR(sprintf) },
+	{ 0xce53df1d, __VMLINUX_SYMBOL_STR(debugfs_remove_recursive) },
+	{ 0x8e9ddd80, __VMLINUX_SYMBOL_STR(seq_read) },
+	{ 0xa89638c3, __VMLINUX_SYMBOL_STR(sysfs_remove_group) },
+	{ 0xbbb9dbe7, __VMLINUX_SYMBOL_STR(__platform_driver_register) },
+	{ 0x7d11c268, __VMLINUX_SYMBOL_STR(jiffies) },
+	{ 0xb2da8e0a, __VMLINUX_SYMBOL_STR(usb_put_hcd) },
+	{ 0xce2840e7, __VMLINUX_SYMBOL_STR(irq_set_irq_wake) },
+	{ 0xbfc177bc, __VMLINUX_SYMBOL_STR(iowrite32_rep) },
+	{ 0x31d6ecc, __VMLINUX_SYMBOL_STR(usb_hcd_link_urb_to_ep) },
+	{ 0xc1a59d86, __VMLINUX_SYMBOL_STR(usb_gadget_udc_reset) },
+	{ 0x98782fd0, __VMLINUX_SYMBOL_STR(dev_err) },
+	{ 0x1916e38c, __VMLINUX_SYMBOL_STR(_raw_spin_unlock_irqrestore) },
+	{ 0xc3bdaf83, __VMLINUX_SYMBOL_STR(sg_miter_start) },
+	{ 0x27e1a049, __VMLINUX_SYMBOL_STR(printk) },
+	{ 0x20c55ae0, __VMLINUX_SYMBOL_STR(sscanf) },
+	{ 0x958c688a, __VMLINUX_SYMBOL_STR(sysfs_create_group) },
+	{ 0x7f8d3818, __VMLINUX_SYMBOL_STR(sg_miter_stop) },
+	{ 0x16305289, __VMLINUX_SYMBOL_STR(warn_slowpath_null) },
+	{ 0x7267942f, __VMLINUX_SYMBOL_STR(platform_get_resource) },
+	{ 0x16e5c2a, __VMLINUX_SYMBOL_STR(mod_timer) },
+	{ 0x2072ee9b, __VMLINUX_SYMBOL_STR(request_threaded_irq) },
+	{ 0x7fe11ad1, __VMLINUX_SYMBOL_STR(device_init_wakeup) },
+	{ 0xe4aa1687, __VMLINUX_SYMBOL_STR(device_wakeup_enable) },
+	{ 0xcab8c2ed, __VMLINUX_SYMBOL_STR(sg_miter_next) },
+	{ 0x2d9bbb2b, __VMLINUX_SYMBOL_STR(usb_hcd_check_unlink_urb) },
+	{ 0xf441ac43, __VMLINUX_SYMBOL_STR(ioread8_rep) },
+	{ 0x79fc2151, __VMLINUX_SYMBOL_STR(pm_runtime_enable) },
+	{ 0x9fd42321, __VMLINUX_SYMBOL_STR(usb_add_gadget_udc) },
+	{ 0x70cd1f, __VMLINUX_SYMBOL_STR(queue_delayed_work_on) },
+	{ 0xdb7305a1, __VMLINUX_SYMBOL_STR(__stack_chk_fail) },
+	{ 0x67bedd7f, __VMLINUX_SYMBOL_STR(platform_get_irq_byname) },
+	{ 0xd5957482, __VMLINUX_SYMBOL_STR(__pm_runtime_set_status) },
+	{ 0x4e01d2cf, __VMLINUX_SYMBOL_STR(sysfs_notify) },
+	{ 0x39c6ca22, __VMLINUX_SYMBOL_STR(dev_driver_string) },
+	{ 0xbdfb6dbb, __VMLINUX_SYMBOL_STR(__fentry__) },
+	{ 0xe69002d6, __VMLINUX_SYMBOL_STR(kmem_cache_alloc_trace) },
+	{ 0xe259ae9e, __VMLINUX_SYMBOL_STR(_raw_spin_lock) },
+	{ 0x78c118bf, __VMLINUX_SYMBOL_STR(pm_runtime_irq_safe) },
+	{ 0x9948d78b, __VMLINUX_SYMBOL_STR(__dynamic_dev_dbg) },
+	{ 0x680ec266, __VMLINUX_SYMBOL_STR(_raw_spin_lock_irqsave) },
+	{ 0x2f0d9053, __VMLINUX_SYMBOL_STR(usb_otg_state_string) },
+	{ 0x1e047854, __VMLINUX_SYMBOL_STR(warn_slowpath_fmt) },
+	{ 0x723b74aa, __VMLINUX_SYMBOL_STR(seq_lseek) },
+	{ 0x37a0cba, __VMLINUX_SYMBOL_STR(kfree) },
+	{ 0xb352177e, __VMLINUX_SYMBOL_STR(find_first_bit) },
+	{ 0xafa0835e, __VMLINUX_SYMBOL_STR(pm_runtime_set_autosuspend_delay) },
+	{ 0xb5c97aba, __VMLINUX_SYMBOL_STR(device_unregister) },
+	{ 0x222e7ce2, __VMLINUX_SYMBOL_STR(sysfs_streq) },
+	{ 0x2e0d2f7f, __VMLINUX_SYMBOL_STR(queue_work_on) },
+	{ 0x28318305, __VMLINUX_SYMBOL_STR(snprintf) },
+	{ 0x6947cf01, __VMLINUX_SYMBOL_STR(param_ops_ushort) },
+	{ 0x1d681509, __VMLINUX_SYMBOL_STR(platform_driver_unregister) },
+	{ 0x7f02188f, __VMLINUX_SYMBOL_STR(__msecs_to_jiffies) },
+	{ 0xff7b2eaf, __VMLINUX_SYMBOL_STR(usb_hcd_unlink_urb_from_ep) },
+	{ 0x1293d74a, __VMLINUX_SYMBOL_STR(usb_hcd_resume_root_hub) },
+	{ 0x2a86697b, __VMLINUX_SYMBOL_STR(devm_kmalloc) },
+	{ 0x4f6b400b, __VMLINUX_SYMBOL_STR(_copy_from_user) },
+	{ 0x2b04fec, __VMLINUX_SYMBOL_STR(dma_ops) },
+	{ 0xf20dabd8, __VMLINUX_SYMBOL_STR(free_irq) },
+	{ 0xe914e41e, __VMLINUX_SYMBOL_STR(strcpy) },
+};
+
+static const char __module_depends[]
+__used
+__attribute__((section(".modinfo"))) =
+"depends=usbcore,udc-core,usb-common";
+

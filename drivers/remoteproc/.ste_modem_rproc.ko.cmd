@@ -1,0 +1,1 @@
+cmd_drivers/remoteproc/ste_modem_rproc.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/remoteproc/ste_modem_rproc.ko drivers/remoteproc/ste_modem_rproc.o drivers/remoteproc/ste_modem_rproc.mod.o

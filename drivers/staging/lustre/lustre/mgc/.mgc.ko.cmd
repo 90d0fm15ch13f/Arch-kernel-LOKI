@@ -1,0 +1,1 @@
+cmd_drivers/staging/lustre/lustre/mgc/mgc.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/lustre/lustre/mgc/mgc.ko drivers/staging/lustre/lustre/mgc/mgc.o drivers/staging/lustre/lustre/mgc/mgc.mod.o

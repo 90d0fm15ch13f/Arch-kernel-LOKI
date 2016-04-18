@@ -1,0 +1,6 @@
+kernel/drivers/pci/hotplug/cpcihp_zt5550.ko
+kernel/drivers/pci/hotplug/cpcihp_generic.ko
+kernel/drivers/pci/hotplug/shpchp.ko
+kernel/drivers/pci/hotplug/acpiphp_ibm.ko
+kernel/drivers/pci/pci-stub.ko
+kernel/drivers/pci/xen-pcifront.ko

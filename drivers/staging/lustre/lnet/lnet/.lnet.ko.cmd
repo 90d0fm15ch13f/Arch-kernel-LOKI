@@ -1,0 +1,1 @@
+cmd_drivers/staging/lustre/lnet/lnet/lnet.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/lustre/lnet/lnet/lnet.ko drivers/staging/lustre/lnet/lnet/lnet.o drivers/staging/lustre/lnet/lnet/lnet.mod.o

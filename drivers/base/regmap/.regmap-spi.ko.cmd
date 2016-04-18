@@ -1,0 +1,1 @@
+cmd_drivers/base/regmap/regmap-spi.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/base/regmap/regmap-spi.ko drivers/base/regmap/regmap-spi.o drivers/base/regmap/regmap-spi.mod.o

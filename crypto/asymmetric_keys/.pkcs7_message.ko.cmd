@@ -1,0 +1,1 @@
+cmd_crypto/asymmetric_keys/pkcs7_message.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o crypto/asymmetric_keys/pkcs7_message.ko crypto/asymmetric_keys/pkcs7_message.o crypto/asymmetric_keys/pkcs7_message.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/mfd/built-in.o :=  ld -m elf_x86_64   -r -o drivers/mfd/built-in.o drivers/mfd/arizona-core.o drivers/mfd/arizona-irq.o drivers/mfd/wm5102-tables.o drivers/mfd/wm5110-tables.o drivers/mfd/mfd-core.o drivers/mfd/abx500-core.o drivers/mfd/syscon.o drivers/mfd/intel-soc-pmic.o 

@@ -1,0 +1,138 @@
+#include <linux/module.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+
+__visible struct module __this_module
+__attribute__((section(".gnu.linkonce.this_module"))) = {
+	.name = KBUILD_MODNAME,
+	.init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+	.exit = cleanup_module,
+#endif
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+static const struct modversion_info ____versions[]
+__used
+__attribute__((section("__versions"))) = {
+	{ 0x5e862211, __VMLINUX_SYMBOL_STR(module_layout) },
+	{ 0x6bc3fbc0, __VMLINUX_SYMBOL_STR(__unregister_chrdev) },
+	{ 0xae405b5f, __VMLINUX_SYMBOL_STR(kmem_cache_destroy) },
+	{ 0x7e104a81, __VMLINUX_SYMBOL_STR(kmalloc_caches) },
+	{ 0xd2b09ce5, __VMLINUX_SYMBOL_STR(__kmalloc) },
+	{ 0x405c1144, __VMLINUX_SYMBOL_STR(get_seconds) },
+	{ 0xcbcbfff2, __VMLINUX_SYMBOL_STR(drop_nlink) },
+	{ 0xdae80100, __VMLINUX_SYMBOL_STR(_raw_spin_unlock) },
+	{ 0xb38cc013, __VMLINUX_SYMBOL_STR(generic_file_llseek) },
+	{ 0x4489da02, __VMLINUX_SYMBOL_STR(register_sysctl_table) },
+	{ 0x5dd632b1, __VMLINUX_SYMBOL_STR(user_path_at_empty) },
+	{ 0x7aa1756e, __VMLINUX_SYMBOL_STR(kvfree) },
+	{ 0x2a37d032, __VMLINUX_SYMBOL_STR(__remove_inode_hash) },
+	{ 0x754d539c, __VMLINUX_SYMBOL_STR(strlen) },
+	{ 0x60a13e90, __VMLINUX_SYMBOL_STR(rcu_barrier) },
+	{ 0xb53c4429, __VMLINUX_SYMBOL_STR(filemap_write_and_wait_range) },
+	{ 0x95abbccc, __VMLINUX_SYMBOL_STR(iget5_locked) },
+	{ 0xc1d8cfaf, __VMLINUX_SYMBOL_STR(__fdget) },
+	{ 0xe7320eb4, __VMLINUX_SYMBOL_STR(kill_anon_super) },
+	{ 0x8526c35a, __VMLINUX_SYMBOL_STR(remove_wait_queue) },
+	{ 0x8507c383, __VMLINUX_SYMBOL_STR(proc_dointvec) },
+	{ 0x23a9b726, __VMLINUX_SYMBOL_STR(is_bad_inode) },
+	{ 0x51bdbf4b, __VMLINUX_SYMBOL_STR(touch_atime) },
+	{ 0x6f77ea85, __VMLINUX_SYMBOL_STR(dput) },
+	{ 0xcaa6d0ed, __VMLINUX_SYMBOL_STR(device_destroy) },
+	{ 0xbf747902, __VMLINUX_SYMBOL_STR(__register_chrdev) },
+	{ 0xb502a63f, __VMLINUX_SYMBOL_STR(inc_nlink) },
+	{ 0xcc24b265, __VMLINUX_SYMBOL_STR(d_find_alias) },
+	{ 0xb5f05fbc, __VMLINUX_SYMBOL_STR(mutex_unlock) },
+	{ 0xe9e27675, __VMLINUX_SYMBOL_STR(vfs_fsync) },
+	{ 0xd21418f5, __VMLINUX_SYMBOL_STR(generic_read_dir) },
+	{ 0x28aa6a67, __VMLINUX_SYMBOL_STR(call_rcu) },
+	{ 0x2c247c59, __VMLINUX_SYMBOL_STR(mount_nodev) },
+	{ 0x91715312, __VMLINUX_SYMBOL_STR(sprintf) },
+	{ 0x7d11c268, __VMLINUX_SYMBOL_STR(jiffies) },
+	{ 0x9e88526, __VMLINUX_SYMBOL_STR(__init_waitqueue_head) },
+	{ 0x4f8b5ddb, __VMLINUX_SYMBOL_STR(_copy_to_user) },
+	{ 0xffd5a395, __VMLINUX_SYMBOL_STR(default_wake_function) },
+	{ 0x954648ec, __VMLINUX_SYMBOL_STR(__insert_inode_hash) },
+	{ 0xcc0f8506, __VMLINUX_SYMBOL_STR(kernel_read) },
+	{ 0x57fd5ff8, __VMLINUX_SYMBOL_STR(vfs_iter_write) },
+	{ 0xbcf9c794, __VMLINUX_SYMBOL_STR(current_task) },
+	{ 0x3d7149d9, __VMLINUX_SYMBOL_STR(__mutex_init) },
+	{ 0x27e1a049, __VMLINUX_SYMBOL_STR(printk) },
+	{ 0x449ad0a7, __VMLINUX_SYMBOL_STR(memcmp) },
+	{ 0xbfe6f427, __VMLINUX_SYMBOL_STR(_raw_spin_unlock_irq) },
+	{ 0xe17f8bc8, __VMLINUX_SYMBOL_STR(kmem_cache_free) },
+	{ 0x1081a331, __VMLINUX_SYMBOL_STR(mutex_lock) },
+	{ 0x2eb9e2f6, __VMLINUX_SYMBOL_STR(set_nlink) },
+	{ 0x95ba9e29, __VMLINUX_SYMBOL_STR(noop_llseek) },
+	{ 0xe1a1579d, __VMLINUX_SYMBOL_STR(device_create) },
+	{ 0xb126bc85, __VMLINUX_SYMBOL_STR(unlock_page) },
+	{ 0x7d72f5be, __VMLINUX_SYMBOL_STR(shrink_dcache_sb) },
+	{ 0xf5a3c7ce, __VMLINUX_SYMBOL_STR(fput) },
+	{ 0x39a3dac0, __VMLINUX_SYMBOL_STR(inode_nohighmem) },
+	{ 0xb60085bc, __VMLINUX_SYMBOL_STR(__task_pid_nr_ns) },
+	{ 0xf0dceaa1, __VMLINUX_SYMBOL_STR(ilookup5) },
+	{ 0x5ac05f76, __VMLINUX_SYMBOL_STR(inode_init_once) },
+	{ 0x40a9b349, __VMLINUX_SYMBOL_STR(vzalloc) },
+	{ 0xd189bba9, __VMLINUX_SYMBOL_STR(kmem_cache_alloc) },
+	{ 0xb2fd5ceb, __VMLINUX_SYMBOL_STR(__put_user_4) },
+	{ 0x5ef4612d, __VMLINUX_SYMBOL_STR(truncate_inode_pages_final) },
+	{ 0xa06ff399, __VMLINUX_SYMBOL_STR(unregister_sysctl_table) },
+	{ 0xdb7305a1, __VMLINUX_SYMBOL_STR(__stack_chk_fail) },
+	{ 0x1000e51, __VMLINUX_SYMBOL_STR(schedule) },
+	{ 0xd62c833f, __VMLINUX_SYMBOL_STR(schedule_timeout) },
+	{ 0xfb6af58d, __VMLINUX_SYMBOL_STR(recalc_sigpending) },
+	{ 0xb66a8b3f, __VMLINUX_SYMBOL_STR(vfs_iter_read) },
+	{ 0xe5815f8a, __VMLINUX_SYMBOL_STR(_raw_spin_lock_irq) },
+	{ 0x7cc4d08b, __VMLINUX_SYMBOL_STR(unlock_new_inode) },
+	{ 0xddfd2ee1, __VMLINUX_SYMBOL_STR(bdi_setup_and_register) },
+	{ 0x6de53c37, __VMLINUX_SYMBOL_STR(d_drop) },
+	{ 0x14467680, __VMLINUX_SYMBOL_STR(default_file_splice_read) },
+	{ 0x4f84a599, __VMLINUX_SYMBOL_STR(d_prune_aliases) },
+	{ 0xde747dba, __VMLINUX_SYMBOL_STR(shrink_dcache_parent) },
+	{ 0xbdfb6dbb, __VMLINUX_SYMBOL_STR(__fentry__) },
+	{ 0x98f94bba, __VMLINUX_SYMBOL_STR(path_put) },
+	{ 0xe69002d6, __VMLINUX_SYMBOL_STR(kmem_cache_alloc_trace) },
+	{ 0xe259ae9e, __VMLINUX_SYMBOL_STR(_raw_spin_lock) },
+	{ 0x92234a23, __VMLINUX_SYMBOL_STR(kmem_cache_create) },
+	{ 0x5595f1d4, __VMLINUX_SYMBOL_STR(register_filesystem) },
+	{ 0xa6bbd805, __VMLINUX_SYMBOL_STR(__wake_up) },
+	{ 0x2164115b, __VMLINUX_SYMBOL_STR(init_pid_ns) },
+	{ 0xc9fef317, __VMLINUX_SYMBOL_STR(add_wait_queue) },
+	{ 0xbe3c71b5, __VMLINUX_SYMBOL_STR(iput) },
+	{ 0x37a0cba, __VMLINUX_SYMBOL_STR(kfree) },
+	{ 0x63f9b408, __VMLINUX_SYMBOL_STR(page_get_link) },
+	{ 0x6a3ac611, __VMLINUX_SYMBOL_STR(ihold) },
+	{ 0x69acdf38, __VMLINUX_SYMBOL_STR(memcpy) },
+	{ 0x37779885, __VMLINUX_SYMBOL_STR(__sb_end_write) },
+	{ 0x4d7775a0, __VMLINUX_SYMBOL_STR(d_splice_alias) },
+	{ 0x2af3c99f, __VMLINUX_SYMBOL_STR(sync_filesystem) },
+	{ 0x97a1f2d2, __VMLINUX_SYMBOL_STR(fget) },
+	{ 0x97471ae5, __VMLINUX_SYMBOL_STR(__sb_start_write) },
+	{ 0x484ed784, __VMLINUX_SYMBOL_STR(generic_readlink) },
+	{ 0xbd58457d, __VMLINUX_SYMBOL_STR(class_destroy) },
+	{ 0x169b408a, __VMLINUX_SYMBOL_STR(d_make_root) },
+	{ 0xfa9fb7fd, __VMLINUX_SYMBOL_STR(bdi_destroy) },
+	{ 0x139a4cb0, __VMLINUX_SYMBOL_STR(task_active_pid_ns) },
+	{ 0x7fbb8490, __VMLINUX_SYMBOL_STR(unregister_filesystem) },
+	{ 0x3cad0dce, __VMLINUX_SYMBOL_STR(init_special_inode) },
+	{ 0x5db69c3d, __VMLINUX_SYMBOL_STR(new_inode) },
+	{ 0x4f6b400b, __VMLINUX_SYMBOL_STR(_copy_from_user) },
+	{ 0x231651bc, __VMLINUX_SYMBOL_STR(__class_create) },
+	{ 0x3263cff5, __VMLINUX_SYMBOL_STR(clear_inode) },
+	{ 0x411550a6, __VMLINUX_SYMBOL_STR(d_instantiate) },
+	{ 0x36b61118, __VMLINUX_SYMBOL_STR(clear_nlink) },
+	{ 0x74e7faab, __VMLINUX_SYMBOL_STR(generic_fillattr) },
+};
+
+static const char __module_depends[]
+__used
+__attribute__((section(".modinfo"))) =
+"depends=";
+
+
+MODULE_INFO(srcversion, "D9F614F361A9417BBCBED09");

@@ -1,0 +1,1 @@
+cmd_drivers/usb/common/usb-common.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/usb/common/usb-common.ko drivers/usb/common/usb-common.o drivers/usb/common/usb-common.mod.o

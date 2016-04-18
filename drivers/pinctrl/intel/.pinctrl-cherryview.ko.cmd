@@ -1,0 +1,1 @@
+cmd_drivers/pinctrl/intel/pinctrl-cherryview.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/pinctrl/intel/pinctrl-cherryview.ko drivers/pinctrl/intel/pinctrl-cherryview.o drivers/pinctrl/intel/pinctrl-cherryview.mod.o

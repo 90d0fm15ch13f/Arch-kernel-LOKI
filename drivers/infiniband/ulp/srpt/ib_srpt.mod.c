@@ -1,0 +1,125 @@
+#include <linux/module.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+
+__visible struct module __this_module
+__attribute__((section(".gnu.linkonce.this_module"))) = {
+	.name = KBUILD_MODNAME,
+	.init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+	.exit = cleanup_module,
+#endif
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+static const struct modversion_info ____versions[]
+__used
+__attribute__((section("__versions"))) = {
+	{ 0x5e862211, __VMLINUX_SYMBOL_STR(module_layout) },
+	{ 0x616bf458, __VMLINUX_SYMBOL_STR(param_ops_int) },
+	{ 0xca83eb24, __VMLINUX_SYMBOL_STR(ib_unregister_client) },
+	{ 0x19e9fbf8, __VMLINUX_SYMBOL_STR(target_unregister_template) },
+	{ 0x6113ef14, __VMLINUX_SYMBOL_STR(ib_register_client) },
+	{ 0x1718bd28, __VMLINUX_SYMBOL_STR(target_register_template) },
+	{ 0xf3e270f1, __VMLINUX_SYMBOL_STR(transport_generic_free_cmd) },
+	{ 0xe8702f44, __VMLINUX_SYMBOL_STR(transport_free_session) },
+	{ 0xdec2a53c, __VMLINUX_SYMBOL_STR(ib_destroy_cq) },
+	{ 0x449ad0a7, __VMLINUX_SYMBOL_STR(memcmp) },
+	{ 0xfdf7e4b, __VMLINUX_SYMBOL_STR(ib_send_cm_drep) },
+	{ 0x5a988e72, __VMLINUX_SYMBOL_STR(ib_send_cm_rep) },
+	{ 0x645d1830, __VMLINUX_SYMBOL_STR(transport_register_session) },
+	{ 0x32c86827, __VMLINUX_SYMBOL_STR(core_tpg_get_initiator_node_acl) },
+	{ 0x39f84fb8, __VMLINUX_SYMBOL_STR(transport_init_session) },
+	{ 0x2626ae42, __VMLINUX_SYMBOL_STR(ib_create_qp) },
+	{ 0xa948f9d4, __VMLINUX_SYMBOL_STR(ib_alloc_cq) },
+	{ 0xe953d74b, __VMLINUX_SYMBOL_STR(target_submit_tmr) },
+	{ 0x47ee2faf, __VMLINUX_SYMBOL_STR(transport_send_check_condition_and_sense) },
+	{ 0xdd489b0e, __VMLINUX_SYMBOL_STR(target_submit_cmd) },
+	{ 0xe813096b, __VMLINUX_SYMBOL_STR(target_execute_cmd) },
+	{ 0x4934c4fe, __VMLINUX_SYMBOL_STR(ib_free_recv_mad) },
+	{ 0x25ec5572, __VMLINUX_SYMBOL_STR(ib_post_send_mad) },
+	{ 0x39332413, __VMLINUX_SYMBOL_STR(ib_create_send_mad) },
+	{ 0x276bec98, __VMLINUX_SYMBOL_STR(ib_create_ah_from_wc) },
+	{ 0x2ec9dc75, __VMLINUX_SYMBOL_STR(ib_cm_init_qp_attr) },
+	{ 0xef1627bb, __VMLINUX_SYMBOL_STR(ib_modify_qp) },
+	{ 0x61441b09, __VMLINUX_SYMBOL_STR(ib_cm_notify) },
+	{ 0x2a565a25, __VMLINUX_SYMBOL_STR(wait_for_completion_timeout) },
+	{ 0xf08242c2, __VMLINUX_SYMBOL_STR(finish_wait) },
+	{ 0x2207a57f, __VMLINUX_SYMBOL_STR(prepare_to_wait_event) },
+	{ 0x1000e51, __VMLINUX_SYMBOL_STR(schedule) },
+	{ 0x88bfa7e, __VMLINUX_SYMBOL_STR(cancel_work_sync) },
+	{ 0xa415250b, __VMLINUX_SYMBOL_STR(ib_unregister_mad_agent) },
+	{ 0xb522ac5b, __VMLINUX_SYMBOL_STR(ib_send_cm_rej) },
+	{ 0x7a91f320, __VMLINUX_SYMBOL_STR(ib_send_cm_dreq) },
+	{ 0x69acdf38, __VMLINUX_SYMBOL_STR(memcpy) },
+	{ 0x3fec048f, __VMLINUX_SYMBOL_STR(sg_next) },
+	{ 0x7db6baab, __VMLINUX_SYMBOL_STR(transport_check_aborted_status) },
+	{ 0x1e047854, __VMLINUX_SYMBOL_STR(warn_slowpath_fmt) },
+	{ 0xd49308c5, __VMLINUX_SYMBOL_STR(ib_dealloc_pd) },
+	{ 0x4fcd25dc, __VMLINUX_SYMBOL_STR(ib_destroy_srq) },
+	{ 0xb3f1cdd6, __VMLINUX_SYMBOL_STR(ib_unregister_event_handler) },
+	{ 0xcba15626, __VMLINUX_SYMBOL_STR(ib_set_client_data) },
+	{ 0x7175d383, __VMLINUX_SYMBOL_STR(ib_register_event_handler) },
+	{ 0x9aab09cd, __VMLINUX_SYMBOL_STR(ib_cm_listen) },
+	{ 0xcd69507f, __VMLINUX_SYMBOL_STR(ib_create_cm_id) },
+	{ 0xdf7c0f9f, __VMLINUX_SYMBOL_STR(ib_create_srq) },
+	{ 0x758c31bf, __VMLINUX_SYMBOL_STR(ib_alloc_pd) },
+	{ 0xe69002d6, __VMLINUX_SYMBOL_STR(kmem_cache_alloc_trace) },
+	{ 0x7e104a81, __VMLINUX_SYMBOL_STR(kmalloc_caches) },
+	{ 0x4c9d28b0, __VMLINUX_SYMBOL_STR(phys_base) },
+	{ 0xd2b09ce5, __VMLINUX_SYMBOL_STR(__kmalloc) },
+	{ 0xa6bbd805, __VMLINUX_SYMBOL_STR(__wake_up) },
+	{ 0xb2d5a552, __VMLINUX_SYMBOL_STR(complete) },
+	{ 0x76ddf1d9, __VMLINUX_SYMBOL_STR(ib_free_cq) },
+	{ 0x24e184cb, __VMLINUX_SYMBOL_STR(ib_destroy_qp) },
+	{ 0xa8320354, __VMLINUX_SYMBOL_STR(ib_destroy_cm_id) },
+	{ 0x4d0b32bd, __VMLINUX_SYMBOL_STR(transport_deregister_session) },
+	{ 0xd2424372, __VMLINUX_SYMBOL_STR(transport_deregister_session_configfs) },
+	{ 0xad3ab944, __VMLINUX_SYMBOL_STR(target_wait_for_sess_cmds) },
+	{ 0x2b04fec, __VMLINUX_SYMBOL_STR(dma_ops) },
+	{ 0x916931d9, __VMLINUX_SYMBOL_STR(target_put_sess_cmd) },
+	{ 0xdae80100, __VMLINUX_SYMBOL_STR(_raw_spin_unlock) },
+	{ 0xe2d5255a, __VMLINUX_SYMBOL_STR(strcmp) },
+	{ 0xe259ae9e, __VMLINUX_SYMBOL_STR(_raw_spin_lock) },
+	{ 0xb11ad4db, __VMLINUX_SYMBOL_STR(core_tpg_register) },
+	{ 0x78f8b045, __VMLINUX_SYMBOL_STR(core_tpg_deregister) },
+	{ 0x5377e556, __VMLINUX_SYMBOL_STR(hex2bin) },
+	{ 0x754d539c, __VMLINUX_SYMBOL_STR(strlen) },
+	{ 0x96b29254, __VMLINUX_SYMBOL_STR(strncasecmp) },
+	{ 0x4ca9669f, __VMLINUX_SYMBOL_STR(scnprintf) },
+	{ 0x3c80c06c, __VMLINUX_SYMBOL_STR(kstrtoull) },
+	{ 0x726f0d7a, __VMLINUX_SYMBOL_STR(ib_free_send_mad) },
+	{ 0xf514324a, __VMLINUX_SYMBOL_STR(ib_destroy_ah) },
+	{ 0xdb7305a1, __VMLINUX_SYMBOL_STR(__stack_chk_fail) },
+	{ 0xd98befc5, __VMLINUX_SYMBOL_STR(ib_register_mad_agent) },
+	{ 0xfaa31f1, __VMLINUX_SYMBOL_STR(ib_query_gid) },
+	{ 0xba377510, __VMLINUX_SYMBOL_STR(ib_query_port) },
+	{ 0x62bce994, __VMLINUX_SYMBOL_STR(ib_modify_port) },
+	{ 0x9e88526, __VMLINUX_SYMBOL_STR(__init_waitqueue_head) },
+	{ 0xe16c794b, __VMLINUX_SYMBOL_STR(target_sess_cmd_list_set_waiting) },
+	{ 0x44b1d426, __VMLINUX_SYMBOL_STR(__dynamic_pr_debug) },
+	{ 0x2e0d2f7f, __VMLINUX_SYMBOL_STR(queue_work_on) },
+	{ 0x2d3385d3, __VMLINUX_SYMBOL_STR(system_wq) },
+	{ 0xda4565a, __VMLINUX_SYMBOL_STR(ib_get_client_data) },
+	{ 0x28318305, __VMLINUX_SYMBOL_STR(snprintf) },
+	{ 0xbfe6f427, __VMLINUX_SYMBOL_STR(_raw_spin_unlock_irq) },
+	{ 0xe5815f8a, __VMLINUX_SYMBOL_STR(_raw_spin_lock_irq) },
+	{ 0x78764f4e, __VMLINUX_SYMBOL_STR(pv_irq_ops) },
+	{ 0x16305289, __VMLINUX_SYMBOL_STR(warn_slowpath_null) },
+	{ 0x37a0cba, __VMLINUX_SYMBOL_STR(kfree) },
+	{ 0x27e1a049, __VMLINUX_SYMBOL_STR(printk) },
+	{ 0x91715312, __VMLINUX_SYMBOL_STR(sprintf) },
+	{ 0x1916e38c, __VMLINUX_SYMBOL_STR(_raw_spin_unlock_irqrestore) },
+	{ 0x680ec266, __VMLINUX_SYMBOL_STR(_raw_spin_lock_irqsave) },
+	{ 0xbdfb6dbb, __VMLINUX_SYMBOL_STR(__fentry__) },
+};
+
+static const char __module_depends[]
+__used
+__attribute__((section(".modinfo"))) =
+"depends=ib_core,target_core_mod,ib_cm,ib_mad";
+

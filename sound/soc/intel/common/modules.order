@@ -1,0 +1,4 @@
+kernel/sound/soc/intel/common/snd-soc-sst-dsp.ko
+kernel/sound/soc/intel/common/snd-soc-sst-ipc.ko
+kernel/sound/soc/intel/common/snd-soc-sst-acpi.ko
+kernel/sound/soc/intel/common/snd-soc-sst-match.ko

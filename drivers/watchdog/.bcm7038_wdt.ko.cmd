@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/bcm7038_wdt.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/watchdog/bcm7038_wdt.ko drivers/watchdog/bcm7038_wdt.o drivers/watchdog/bcm7038_wdt.mod.o

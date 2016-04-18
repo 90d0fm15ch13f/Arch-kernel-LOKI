@@ -1,0 +1,5 @@
+kernel/drivers/mtd/maps/map_funcs.ko
+kernel/drivers/mtd/maps/pcmciamtd.ko
+kernel/drivers/mtd/maps/pci.ko
+kernel/drivers/mtd/maps/scb2_flash.ko
+kernel/drivers/mtd/maps/plat-ram.ko

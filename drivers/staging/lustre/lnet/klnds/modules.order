@@ -1,0 +1,2 @@
+kernel/drivers/staging/lustre/lnet/klnds/o2iblnd/ko2iblnd.ko
+kernel/drivers/staging/lustre/lnet/klnds/socklnd/ksocklnd.ko

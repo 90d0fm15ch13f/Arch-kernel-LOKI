@@ -1,0 +1,1 @@
+cmd_drivers/acpi/built-in.o :=  ld -m elf_x86_64   -r -o drivers/acpi/built-in.o drivers/acpi/tables.o drivers/acpi/blacklist.o drivers/acpi/acpi.o drivers/acpi/acpica/built-in.o drivers/acpi/pci_slot.o drivers/acpi/container.o drivers/acpi/acpi_memhotplug.o drivers/acpi/ioapic.o drivers/acpi/hed.o drivers/acpi/bgrt.o drivers/acpi/apei/built-in.o 

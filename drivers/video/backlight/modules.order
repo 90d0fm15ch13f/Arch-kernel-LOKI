@@ -1,0 +1,5 @@
+kernel/drivers/video/backlight/lcd.ko
+kernel/drivers/video/backlight/platform_lcd.ko
+kernel/drivers/video/backlight/apple_bl.ko
+kernel/drivers/video/backlight/lm3533_bl.ko
+kernel/drivers/video/backlight/pcf50633-backlight.ko

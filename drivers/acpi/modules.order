@@ -1,0 +1,17 @@
+kernel/drivers/acpi/apei/einj.ko
+kernel/drivers/acpi/apei/erst-dbg.ko
+kernel/drivers/acpi/acpi_ipmi.ko
+kernel/drivers/acpi/ac.ko
+kernel/drivers/acpi/button.ko
+kernel/drivers/acpi/fan.ko
+kernel/drivers/acpi/video.ko
+kernel/drivers/acpi/processor.ko
+kernel/drivers/acpi/thermal.ko
+kernel/drivers/acpi/nfit.ko
+kernel/drivers/acpi/battery.ko
+kernel/drivers/acpi/sbshc.ko
+kernel/drivers/acpi/sbs.ko
+kernel/drivers/acpi/ec_sys.ko
+kernel/drivers/acpi/custom_method.ko
+kernel/drivers/acpi/acpi_pad.ko
+kernel/drivers/acpi/acpi_extlog.ko

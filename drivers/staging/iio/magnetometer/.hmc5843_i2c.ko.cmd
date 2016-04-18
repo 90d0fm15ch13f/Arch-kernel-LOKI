@@ -1,0 +1,1 @@
+cmd_drivers/staging/iio/magnetometer/hmc5843_i2c.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/iio/magnetometer/hmc5843_i2c.ko drivers/staging/iio/magnetometer/hmc5843_i2c.o drivers/staging/iio/magnetometer/hmc5843_i2c.mod.o

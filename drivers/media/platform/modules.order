@@ -1,0 +1,2 @@
+kernel/drivers/media/platform/sh_veu.ko
+kernel/drivers/media/platform/m2m-deinterlace.ko

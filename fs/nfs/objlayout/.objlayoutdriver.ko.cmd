@@ -1,0 +1,1 @@
+cmd_fs/nfs/objlayout/objlayoutdriver.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o fs/nfs/objlayout/objlayoutdriver.ko fs/nfs/objlayout/objlayoutdriver.o fs/nfs/objlayout/objlayoutdriver.mod.o

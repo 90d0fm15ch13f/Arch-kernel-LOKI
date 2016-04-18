@@ -1,0 +1,1 @@
+cmd_drivers/staging/gdm72xx/gdmwm.o := ld -m elf_x86_64   -r -o drivers/staging/gdm72xx/gdmwm.o drivers/staging/gdm72xx/gdm_wimax.o drivers/staging/gdm72xx/netlink_k.o drivers/staging/gdm72xx/gdm_qos.o drivers/staging/gdm72xx/gdm_usb.o drivers/staging/gdm72xx/usb_boot.o 

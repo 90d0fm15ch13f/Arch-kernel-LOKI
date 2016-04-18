@@ -1,0 +1,1 @@
+cmd_drivers/staging/media/lirc/lirc_bt829.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/media/lirc/lirc_bt829.ko drivers/staging/media/lirc/lirc_bt829.o drivers/staging/media/lirc/lirc_bt829.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/netronome/nfp/nfp_netvf.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/net/ethernet/netronome/nfp/nfp_netvf.ko drivers/net/ethernet/netronome/nfp/nfp_netvf.o drivers/net/ethernet/netronome/nfp/nfp_netvf.mod.o

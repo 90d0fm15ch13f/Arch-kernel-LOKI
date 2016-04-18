@@ -1,0 +1,4 @@
+kernel/drivers/staging/lustre/lnet/lnet/lnet.ko
+kernel/drivers/staging/lustre/lnet/klnds/o2iblnd/ko2iblnd.ko
+kernel/drivers/staging/lustre/lnet/klnds/socklnd/ksocklnd.ko
+kernel/drivers/staging/lustre/lnet/selftest/lnet_selftest.ko

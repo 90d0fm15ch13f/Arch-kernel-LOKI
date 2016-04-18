@@ -1,0 +1,1 @@
+cmd_drivers/staging/lustre/lustre/fid/fid.o := ld -m elf_x86_64   -r -o drivers/staging/lustre/lustre/fid/fid.o drivers/staging/lustre/lustre/fid/fid_request.o drivers/staging/lustre/lustre/fid/fid_lib.o drivers/staging/lustre/lustre/fid/lproc_fid.o 

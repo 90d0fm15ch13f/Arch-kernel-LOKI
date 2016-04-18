@@ -1,0 +1,17 @@
+kernel/sound/soc/codecs/snd-soc-ac97.ko
+kernel/sound/soc/codecs/snd-soc-dmic.ko
+kernel/sound/soc/codecs/snd-soc-max98090.ko
+kernel/sound/soc/codecs/snd-soc-max98357a.ko
+kernel/sound/soc/codecs/snd-soc-nau8825.ko
+kernel/sound/soc/codecs/snd-soc-rl6231.ko
+kernel/sound/soc/codecs/snd-soc-rl6347a.ko
+kernel/sound/soc/codecs/snd-soc-rt286.ko
+kernel/sound/soc/codecs/snd-soc-rt5640.ko
+kernel/sound/soc/codecs/snd-soc-rt5645.ko
+kernel/sound/soc/codecs/snd-soc-rt5651.ko
+kernel/sound/soc/codecs/snd-soc-rt5670.ko
+kernel/sound/soc/codecs/snd-soc-si476x.ko
+kernel/sound/soc/codecs/snd-soc-spdif-rx.ko
+kernel/sound/soc/codecs/snd-soc-spdif-tx.ko
+kernel/sound/soc/codecs/snd-soc-ssm4567.ko
+kernel/sound/soc/codecs/snd-soc-ts3a227e.ko

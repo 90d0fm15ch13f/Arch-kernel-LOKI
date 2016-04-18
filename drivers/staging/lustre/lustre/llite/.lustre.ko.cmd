@@ -1,0 +1,1 @@
+cmd_drivers/staging/lustre/lustre/llite/lustre.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/lustre/lustre/llite/lustre.ko drivers/staging/lustre/lustre/llite/lustre.o drivers/staging/lustre/lustre/llite/lustre.mod.o

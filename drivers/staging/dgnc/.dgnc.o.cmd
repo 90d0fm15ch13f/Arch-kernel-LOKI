@@ -1,0 +1,1 @@
+cmd_drivers/staging/dgnc/dgnc.o := ld -m elf_x86_64   -r -o drivers/staging/dgnc/dgnc.o drivers/staging/dgnc/dgnc_cls.o drivers/staging/dgnc/dgnc_driver.o drivers/staging/dgnc/dgnc_mgmt.o drivers/staging/dgnc/dgnc_neo.o drivers/staging/dgnc/dgnc_tty.o drivers/staging/dgnc/dgnc_sysfs.o drivers/staging/dgnc/dgnc_utils.o 

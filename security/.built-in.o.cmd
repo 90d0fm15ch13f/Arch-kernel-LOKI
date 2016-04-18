@@ -1,0 +1,1 @@
+cmd_security/built-in.o :=  ld -m elf_x86_64   -r -o security/built-in.o security/keys/built-in.o security/commoncap.o security/min_addr.o security/security.o security/inode.o security/yama/built-in.o security/device_cgroup.o security/integrity/built-in.o 

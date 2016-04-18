@@ -1,0 +1,1 @@
+cmd_drivers/cpufreq/cpufreq_stats.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/cpufreq/cpufreq_stats.ko drivers/cpufreq/cpufreq_stats.o drivers/cpufreq/cpufreq_stats.mod.o

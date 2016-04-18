@@ -1,0 +1,1 @@
+cmd_drivers/staging/lustre/lustre/mdc/mdc.o := ld -m elf_x86_64   -r -o drivers/staging/lustre/lustre/mdc/mdc.o drivers/staging/lustre/lustre/mdc/mdc_request.o drivers/staging/lustre/lustre/mdc/mdc_reint.o drivers/staging/lustre/lustre/mdc/mdc_lib.o drivers/staging/lustre/lustre/mdc/mdc_locks.o drivers/staging/lustre/lustre/mdc/lproc_mdc.o 

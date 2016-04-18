@@ -1,0 +1,1 @@
+cmd_crypto/asymmetric_keys/public_key.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o crypto/asymmetric_keys/public_key.ko crypto/asymmetric_keys/public_key.o crypto/asymmetric_keys/public_key.mod.o

@@ -1,0 +1,1 @@
+cmd_security/keys/encrypted-keys/encrypted-keys.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o security/keys/encrypted-keys/encrypted-keys.ko security/keys/encrypted-keys/encrypted-keys.o security/keys/encrypted-keys/encrypted-keys.mod.o

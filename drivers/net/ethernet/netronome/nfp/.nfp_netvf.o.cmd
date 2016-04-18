@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/netronome/nfp/nfp_netvf.o := ld -m elf_x86_64   -r -o drivers/net/ethernet/netronome/nfp/nfp_netvf.o drivers/net/ethernet/netronome/nfp/nfp_net_common.o drivers/net/ethernet/netronome/nfp/nfp_net_ethtool.o drivers/net/ethernet/netronome/nfp/nfp_netvf_main.o 

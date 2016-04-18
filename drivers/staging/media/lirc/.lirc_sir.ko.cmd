@@ -1,0 +1,1 @@
+cmd_drivers/staging/media/lirc/lirc_sir.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/media/lirc/lirc_sir.ko drivers/staging/media/lirc/lirc_sir.o drivers/staging/media/lirc/lirc_sir.mod.o

@@ -1,0 +1,2 @@
+kernel/net/vmw_vsock/vsock.ko
+kernel/net/vmw_vsock/vmw_vsock_vmci_transport.ko

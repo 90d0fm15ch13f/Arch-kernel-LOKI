@@ -1,0 +1,1 @@
+cmd_drivers/staging/gdm72xx/gdmwm.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/gdm72xx/gdmwm.ko drivers/staging/gdm72xx/gdmwm.o drivers/staging/gdm72xx/gdmwm.mod.o

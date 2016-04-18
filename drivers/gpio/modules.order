@@ -1,0 +1,6 @@
+kernel/drivers/gpio/gpio-amd8111.ko
+kernel/drivers/gpio/gpio-ich.ko
+kernel/drivers/gpio/gpio-lynxpoint.ko
+kernel/drivers/gpio/gpio-sch.ko
+kernel/drivers/gpio/gpio-sch311x.ko
+kernel/drivers/gpio/gpio-viperboard.ko

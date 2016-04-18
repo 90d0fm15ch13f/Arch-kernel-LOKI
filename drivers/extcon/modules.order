@@ -1,0 +1,3 @@
+kernel/drivers/extcon/extcon.ko
+kernel/drivers/extcon/extcon-gpio.ko
+kernel/drivers/extcon/extcon-sm5502.ko

@@ -1,0 +1,1 @@
+cmd_drivers/staging/iio/magnetometer/hmc5843_core.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o drivers/staging/iio/magnetometer/hmc5843_core.ko drivers/staging/iio/magnetometer/hmc5843_core.o drivers/staging/iio/magnetometer/hmc5843_core.mod.o

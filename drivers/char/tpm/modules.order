@@ -1,0 +1,10 @@
+kernel/drivers/char/tpm/tpm.ko
+kernel/drivers/char/tpm/tpm_tis.ko
+kernel/drivers/char/tpm/tpm_i2c_atmel.ko
+kernel/drivers/char/tpm/tpm_i2c_infineon.ko
+kernel/drivers/char/tpm/tpm_i2c_nuvoton.ko
+kernel/drivers/char/tpm/tpm_nsc.ko
+kernel/drivers/char/tpm/tpm_atmel.ko
+kernel/drivers/char/tpm/tpm_infineon.ko
+kernel/drivers/char/tpm/xen-tpmfront.ko
+kernel/drivers/char/tpm/tpm_crb.ko

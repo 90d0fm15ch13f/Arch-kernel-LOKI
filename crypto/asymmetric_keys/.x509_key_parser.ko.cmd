@@ -1,0 +1,1 @@
+cmd_crypto/asymmetric_keys/x509_key_parser.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o crypto/asymmetric_keys/x509_key_parser.ko crypto/asymmetric_keys/x509_key_parser.o crypto/asymmetric_keys/x509_key_parser.mod.o

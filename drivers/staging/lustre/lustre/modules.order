@@ -1,0 +1,13 @@
+kernel/drivers/staging/lustre/lustre/libcfs/libcfs.ko
+kernel/drivers/staging/lustre/lustre/obdclass/obdclass.ko
+kernel/drivers/staging/lustre/lustre/ptlrpc/ptlrpc.ko
+kernel/drivers/staging/lustre/lustre/fld/fld.ko
+kernel/drivers/staging/lustre/lustre/osc/osc.ko
+kernel/drivers/staging/lustre/lustre/mgc/mgc.ko
+kernel/drivers/staging/lustre/lustre/fid/fid.ko
+kernel/drivers/staging/lustre/lustre/lov/lov.ko
+kernel/drivers/staging/lustre/lustre/mdc/mdc.ko
+kernel/drivers/staging/lustre/lustre/lmv/lmv.ko
+kernel/drivers/staging/lustre/lustre/llite/lustre.ko
+kernel/drivers/staging/lustre/lustre/llite/llite_lloop.ko
+kernel/drivers/staging/lustre/lustre/obdecho/obdecho.ko
